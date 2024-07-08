@@ -13,8 +13,10 @@ This repository contains a shell script to create a new conda environment called
 Before running the script, ensure that you have the following prerequisites installed on your system:
 
 1. Ubuntu 18.04 or later
-2. TensorRT (Optional)
-3. NVIDIA GPU Latest Driver Installed in Windows (Tested on 556.12 Laptop Driver)
+2. Windows WSL2 - Windows 10 19044 or higher (64-bit)
+3. TensorRT (Optional)
+4. NVIDIA GPU Latest Driver Installed in Windows (Tested on 556.12 Laptop Driver)
+5. Anaconda/Miniconda
 
 **Installation Steps**
 
