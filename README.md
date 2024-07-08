@@ -5,8 +5,9 @@ This repository contains a shell script to create a new conda environment called
 1. Install the Anaconda/Miniconda on your own, this script does not install Anaconda/Miniconda in your WSL2. You can refer to the documentation here: https://docs.anaconda.com/anaconda/install/linux/
 2. Run this Script in your Ubuntu WSL2
 3. If you need other Python packages on this environment just install it manually using pip
-4. Make sure you have stable internet during the installation process, because the installation will install many CuDNN packages which is quite large.
+4. Make sure you have stable internet during the installation process, because the installation will install many CuDNN packages which is quite large
 5. To test the Tensorflow is working with CUDA Support, run the **TF-CUDA_Check.ipynb** Notebook in Visual Studio Code
+6. To achieve a better training performance, it is recommended to use NVIDIA RTX Series GPU
 
 **Prerequisites**
 
