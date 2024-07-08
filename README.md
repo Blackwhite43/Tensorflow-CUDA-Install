@@ -8,6 +8,7 @@ This repository contains a shell script to create a new conda environment called
 4. Make sure you have stable internet during the installation process, because the installation will install many CuDNN packages which is quite large
 5. To test the Tensorflow is working with CUDA Support, run the **TF-CUDA_Check.ipynb** Notebook in Visual Studio Code
 6. To achieve a better training performance, it is recommended to use NVIDIA RTX Series GPU
+7. It is advised to have at least 16GB of RAM to run WSL2 Ubuntu for a better performance. Also, more than 16GB RAM can be consumed when you train Deep Learning project
 
 **Prerequisites**
 
