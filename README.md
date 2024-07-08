@@ -1,4 +1,4 @@
-This repository contains a shell script to create a new conda environment called **"tf-cuda-env"** and install TensorFlow 2.15.1 along with CUDA support on the environment in your WSL2 Ubuntu system. This will enable you train your Tensorflow Deep Learning Project faster with the help of GPU acceleration (NVIDIA only) for your TensorFlow projects. The objecetive of this shell script is that you only need to run this script and tensorflow with CUDA support will be installed already.
+This repository contains a shell script to create a new conda environment called **"tf-cuda-env"** with Python version 3.11.9 and install TensorFlow 2.15.1 along with CUDA support on the environment in your WSL2 Ubuntu system. This will enable you train your Tensorflow Deep Learning Project faster with the help of GPU acceleration (NVIDIA only) for your TensorFlow projects. The objecetive of this shell script is that you only need to run this script and tensorflow with CUDA support will be installed already.
 
 **Note:**
 
