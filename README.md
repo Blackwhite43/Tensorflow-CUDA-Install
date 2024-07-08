@@ -5,7 +5,8 @@ This repository contains a shell script to create a new conda environment called
 1. Install the Anaconda/Miniconda on your own, this script does not install Anaconda/Miniconda in your WSL2. You can refer to the documentation here: https://docs.anaconda.com/anaconda/install/linux/
 2. Run this Script in your Ubuntu WSL2
 3. If you need other Python packages on this environment just install it manually using pip
-4. Make sure you have a stable internet during this installation process, because the installation will install many CuDNN packages which is quite large.
+4. Make sure you have stable internet during the installation process, because the installation will install many CuDNN packages which is quite large.
+5. To test the Tensorflow is working with CUDA Support, run the **TF-CUDA_Check.ipynb** Notebook in Visual Studio Code
 
 **Prerequisites**
 
@@ -29,7 +30,7 @@ Before running the script, ensure that you have the following prerequisites inst
    ```
 3. After finish executing the Script, open the **TF-CUDA_Check.ipynb** file in Visual Studio Code.
 4. Select the installed **"tf-cuda-env"** environment
-5. Run the Notebook on that environment
+5. Run the Notebook **TF-CUDA_Check.ipynb** on that environment
 
 This conclude the installation process of Tensorflow 2.15.1 with CUDA Support.
 More update will follows
