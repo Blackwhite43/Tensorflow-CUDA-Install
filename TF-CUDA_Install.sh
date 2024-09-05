@@ -15,7 +15,7 @@ fi
 
 # Create the environment with -y to auto-confirm
 ENV_NAME=tf-cuda-env
-PYTHON_VERSION=3.11
+PYTHON_VERSION=3.12
 echo "Creating environment $ENV_NAME with Python $PYTHON_VERSION"
 
 conda create -n $ENV_NAME python=$PYTHON_VERSION -y
@@ -36,9 +36,11 @@ else
     exit 1
 fi
 
-# Pip command to install tensorflow version 2.15.1 with CUDA Support
+# Pip command to install tensorflow version 2.17 with CUDA Support
 pip install pandas
-pip install tensorflow[and-cuda]==2.15.1
+pip install scikit-learn
+pip install matplotlib
+pip install tensorflow[and-cuda]==2.17
 
 # Deactivate the environment (optional)
 conda deactivate
