@@ -1,7 +1,7 @@
 # Pytorch-CUDA-Install
 Run your Tensorflow with CUDA Support Locally. Just run shell script file in your Ubuntu System to install Tensorflow 2.17 with CUDA Support
 
-This repository contains a shell script to create a new conda environment called **"tf-cuda-env"** with Python version 3.12.4 and install TensorFlow 2.17 along with CUDA support on the environment in your Ubuntu. This will enable you train your Tensorflow Deep Learning Project faster with the help of GPU acceleration (NVIDIA only). The objecetive of this shell script is that you only need to run this script and tensorflow with CUDA support will be installed already.
+This repository contains a shell script to create a new conda environment called **"tf-cuda-env"** with Python version 3.12.x and install TensorFlow 2.17 along with CUDA support on the environment in your Ubuntu. This will enable you train your Tensorflow Deep Learning Project faster with the help of GPU acceleration (NVIDIA only). The objecetive of this shell script is that you only need to run this script and tensorflow with CUDA support will be installed already.
 
 **Note:**
 
