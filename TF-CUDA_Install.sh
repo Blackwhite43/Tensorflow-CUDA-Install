@@ -40,6 +40,7 @@ fi
 pip install pandas
 pip install scikit-learn
 pip install matplotlib
+pip install openpyxl
 pip install tensorflow[and-cuda]==2.17
 
 # Deactivate the environment (optional)
