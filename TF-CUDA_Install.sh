@@ -36,12 +36,12 @@ else
     exit 1
 fi
 
-# Pip command to install tensorflow version 2.17 with CUDA Support
+# Pip command to install tensorflow version 2.18 with CUDA Support
 pip install pandas
 pip install scikit-learn
 pip install matplotlib
 pip install openpyxl
-pip install tensorflow[and-cuda]==2.17
+pip install tensorflow[and-cuda]==2.18
 
 # Deactivate the environment (optional)
 conda deactivate
