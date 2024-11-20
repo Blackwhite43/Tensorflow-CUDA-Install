@@ -42,9 +42,13 @@ pip install scikit-learn
 pip install matplotlib
 pip install openpyxl
 pip install tensorflow[and-cuda]==2.18
+pip install numpy
 
 # Deactivate the environment (optional)
 conda deactivate
-echo "Conda environment deactivated."
 
+# Delete All Cache Folder
+rm -rf ~/.cache
+
+echo "Conda environment deactivated."
 echo "Finished running commands."
